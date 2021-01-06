@@ -1,0 +1,60 @@
+#intropg1{
+    background: linear-gradient(green  33%, aquamarine 66%, mediumorchid 100%);
+    z-index: 9;
+    text-align: center;
+}
+
+#info{
+    background-color: darkorange;
+    text-align: center;
+}
+
+img{
+    border-radius: 100px;
+    border-color: green;
+    border-width: thick;
+}
+h1{
+    font-family: fantasy;
+    color: bisque;
+}
+.line{
+    text-decoration-line: underline
+}
+h2{
+    font-family: monospace;
+    color: firebrick;
+}
+p{
+    font-family: inherit;
+    color: maroon;
+    line-height: 25px;
+}
+
+.options{
+    position: fixed;
+    list-style: none;
+    top: 10px; 
+    left: 5px;
+    z-index: 10;
+    cursor: pointer; 
+}
+
+.links{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.links:hover{
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
